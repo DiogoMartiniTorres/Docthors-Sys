@@ -39,6 +39,9 @@
 
         $(document).ready(function() {
             $('#minha-tabela').DataTable({
+                language: {
+                    url: 'https://cdn.datatables.net/plug-ins/1.10.22/i18n/Portuguese-Brasil.json'
+                },
                 initComplete: function() {
                     // Adiciona classes ao input de busca
                     $('.dataTables_filter input').addClass(
