@@ -32,4 +32,9 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function() {
+            $('#minha-tabela').DataTable();
+        });
+    </script>
 </x-app-layout>
