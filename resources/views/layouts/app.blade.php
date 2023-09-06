@@ -13,6 +13,14 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+        <!-- jQuery -->
+        <script src="{{ asset('assets/libs/JQuery/dist/jquery.min.js') }}"></script>
+
+        <!-- DataTables -->
+        <link rel="stylesheet" type="text/css" href="{{ asset('assets/libs/Datatable/datatables.net-dt/css/jquery.dataTables.min.css') }}">
+        <script type="text/javascript" charset="utf8" src="{{ asset('assets/libs/Datatable/datatables.net/js/jquery.dataTables.min.js') }}"></script>
+
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
